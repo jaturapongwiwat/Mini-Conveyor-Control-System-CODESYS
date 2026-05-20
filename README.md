@@ -83,3 +83,5 @@ graph LR
     Reset -- Yes --> Clear[Clear COUNT & Alarm]
     Clear --> AutoReady
     Reset -- No --> Alarm & Complete
+
+    - **Emergency Stop (E-STOP) Integration:** Features a dedicated safety cutoff. Pressing the E-STOP instantly de-energizes the conveyor motor in both Auto and Manual modes, requiring a manual Reset to restart operations.
